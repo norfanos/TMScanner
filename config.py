@@ -44,7 +44,6 @@ def _require(key: str) -> str:
 
 # ─── Exported config values ───────────────────────────────────────────────────
 SCAN_URL         = _require("SCAN_URL")
-PRICE_THRESHOLD  = float(_require("PRICE_THRESHOLD"))
 SCAN_INTERVAL    = int(_require("SCAN_INTERVAL"))
 
 TELEGRAM_TOKEN   = _require("TELEGRAM_TOKEN")
@@ -54,3 +53,8 @@ MONGO_URL        = os.getenv("MONGO_URL", "mongodb://localhost:27017")
 REDIS_URL        = os.getenv("REDIS_URL", "redis://localhost:6379")
 
 DASHBOARD_PORT   = int(os.getenv("DASHBOARD_PORT", "8181"))
+
+EVENT_NAME       = os.getenv("EVENT_NAME",  "Event")
+EVENT_DATE       = os.getenv("EVENT_DATE",  "")
+EVENT_VENUE      = os.getenv("EVENT_VENUE", "")
+EVENT_IMAGE      = os.getenv("EVENT_IMAGE", "")
