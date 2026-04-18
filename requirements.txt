@@ -1,0 +1,5 @@
+playwright
+pymongo
+redis
+flask
+python-dotenv

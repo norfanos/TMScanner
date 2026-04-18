@@ -1,0 +1,53 @@
+# ─── Secrets — never commit ───────────────────────────────────────────────────
+.env
+.env.*
+
+# ─── Python ───────────────────────────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+dist/
+*.egg-info/
+*.egg
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.tox/
+.coverage
+htmlcov/
+
+# ─── Virtual envs ─────────────────────────────────────────────────────────────
+.venv/
+venv/
+env/
+ENV/
+
+# ─── Playwright / Node ────────────────────────────────────────────────────────
+node_modules/
+playwright-report/
+test-results/
+
+# ─── Logs & runtime output ────────────────────────────────────────────────────
+*.log
+dashboard.log
+logs/
+*.pid
+
+# ─── Docker volumes (if ever mounted locally) ─────────────────────────────────
+mongo_data/
+redis_data/
+
+# ─── IDE / editor ─────────────────────────────────────────────────────────────
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# ─── OS junk ──────────────────────────────────────────────────────────────────
+.DS_Store
+Thumbs.db
+desktop.ini
