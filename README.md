@@ -1,5 +1,7 @@
 # TMScanner
 
+![Alt Text](https://raw.githubusercontent.com/norfanos/TMScanner/refs/heads/master/Screenshot%202026-04-30%20225215.png "Hero Screenshot")
+
 Watches a **Ticketmaster Exchange** event page in the background, records
 ticket prices over time, and sends **Telegram alerts** when any tier (GA, GA+,
 or VIP) drops below a price you configure.  A web dashboard shows current
@@ -15,8 +17,6 @@ a price heatmap, and a history of alerts.
 - 💾  Price history in **MongoDB**, live cache in **Redis**, dashboard in **Flask**
 
 ---
-
-![Alt Text](https://raw.githubusercontent.com/norfanos/TMScanner/refs/heads/master/Screenshot%202026-04-30%20225215.png "Hero Screenshot")
 
 ## 1. What you need before you start
 
