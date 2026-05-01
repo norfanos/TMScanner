@@ -16,6 +16,8 @@ a price heatmap, and a history of alerts.
 
 ---
 
+![Alt Text](https://raw.githubusercontent.com/norfanos/TMScanner/refs/heads/master/Screenshot%202026-04-30%20225215.png "Hero Screenshot")
+
 ## 1. What you need before you start
 
 Install these first.  All are free.
